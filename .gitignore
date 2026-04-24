@@ -1,0 +1,25 @@
+# Environment variables
+.env
+
+# Node
+node_modules/
+npm-debug.log
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Uploads (optional)
+backend/uploads/
+
+# VS Code
+.vscode/
