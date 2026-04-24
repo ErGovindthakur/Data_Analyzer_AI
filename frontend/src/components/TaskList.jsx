@@ -17,7 +17,7 @@ export default function TaskList() {
   }, []);
 
   return (
-    <div className="bg-white p-4 rounded-xl shadow">
+    <div className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow">
       <h2 className="font-semibold mb-3">Tasks</h2>
 
       {tasks.length === 0 ? (
