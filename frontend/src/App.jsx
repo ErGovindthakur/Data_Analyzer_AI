@@ -5,6 +5,7 @@ import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 
 import ProtectedRoute from "./components/ProtectedRoute";
+import TaskList from "./components/TaskList";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         {/* Public Routes */}
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/tasks" element={<TaskList />} />
 
         {/* Protected Routes */}
         <Route
